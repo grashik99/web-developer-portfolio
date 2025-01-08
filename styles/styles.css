@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Shared style */
+.open-sans-font {
+    font-family: "Open Sans", serif;
+}
+
+.btn-primary {
+    background-color: rgb(253, 110, 10);
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: rgba(0, 0, 255, 0.482);
+}
+
+/* header section */
+header {
+    background-image: url(../images/developer.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+/* Nav Section */
+.nav-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-container h1 {
+    font-size: 45px;
+    font-weight: 800;
+}
+.nav-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav li {
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+}
+
+.nav button {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.name-color {
+    color: rgb(253, 110, 10);
+}
+
+
+.banner-section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner-section h2 {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.banner-section h1 {
+    color: black;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.banner-section p {
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+}
+
+.btn-con {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* about me section */
+.about-me-section{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    margin-bottom: 100px;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.about-me {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.det-con{
+    display: flex;
+    justify-content: space-evenly;
+    color: #474747;
+}
+.about-me h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.about-me p{
+    font-weight: 400;
+}
+.det-con h6{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.det-con p{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* What i do section */
+.what-i-do{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.do-details{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.do-container{
+    display: flex;
+    gap: 20px;
+}
+.do-container div{
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.23);
+}
+.resume{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.resume-head{
+    text-align: center;
+}
+.resume-head h3{
+    font-size: 30px;
+}
+.edu-container{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+/* footer */
+footer{
+    background-color: rgb(255, 248, 243);
+
+}
+.footer-full-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.connect{
+    width: 50%;
+    padding: 100px;
+    padding-left: 0px;
+    box-sizing: border-box;
+}
+.message{
+    width: 50%;
+    padding: 100px;
+    box-sizing: border-box;
+    padding-left: 0px;
+}
+.message input,textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
